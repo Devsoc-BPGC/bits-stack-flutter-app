@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Widget> pages = [];
+    
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -19,6 +20,9 @@ class MyApp extends StatelessWidget {
           return pages.elementAt(index);
         },
       ),
+      routes: {
+
+      },
     );
   }
 }
