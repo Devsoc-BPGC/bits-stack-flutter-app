@@ -43,24 +43,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
   equatable:
     dependency: "direct main"
     description:
       name: equatable
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "1.2.6"
-=======
     version: "2.0.0"
->>>>>>> 8ac091f151c8ffd8490ad12c8ed0fd7999fdfe0e
   fake_async:
     dependency: transitive
     description:
@@ -110,11 +99,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-<<<<<<< HEAD
-    version: "1.8.0"
-=======
     version: "1.8.1"
->>>>>>> 8ac091f151c8ffd8490ad12c8ed0fd7999fdfe0e
   stack_trace:
     dependency: transitive
     description:
