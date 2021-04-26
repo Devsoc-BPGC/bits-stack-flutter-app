@@ -55,6 +55,42 @@ flutter:
             weight: 300
           - asset: assets/fonts/sf-ui-display-ultralight.otf
             weight: 200
+      - family: Roboto
+        fonts:
+          - asset: assets/fonts/Roboto-Black.ttf
+            weight: 900
+          - asset: assets/fonts/Roboto-BlackItalic.ttf
+            weight: 900
+            style: italic
+
+          - asset: assets/fonts/Roboto-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Roboto-BoldItalic.ttf
+            weight: 700
+            style: italic
+
+          - asset: assets/fonts/Roboto-Medium.ttf
+            weight: 600
+          - asset: assets/fonts/Roboto-MediumItalic.ttf
+            weight: 600
+            style: italic
+
+          - asset: assets/fonts/Roboto-Regular.ttf
+            weight: 500
+          - asset: assets/fonts/Roboto-Italic.ttf
+            style: italic
+            weight: 500
+
+          - asset: assets/fonts/Roboto-Light.ttf
+            weight: 300
+          - asset: assets/fonts/Roboto-LightItalic.ttf
+            weight: 300
+            style: italic
+          - asset: assets/fonts/Roboto-Thin.ttf
+            weight: 200
+          - asset: assets/fonts/Roboto-ThinItalic.ttf
+            weight: 200
+            style: italic
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
