@@ -9,6 +9,10 @@
 .history
 .svn/
 .lock
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7316bf2c7293f47c0fbaca6035d9d981783c50a6
 
 # IntelliJ related
 *.iml
