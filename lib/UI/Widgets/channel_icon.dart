@@ -41,7 +41,7 @@ class _ChannelIconState extends State<ChannelIcon> {
                   Stack(
                     children: [
                       Image(
-                        image: AssetImage('assets/images/rectangle_31.png'),
+                        image: AssetImage('assets/images/avatar.png'),
                       ),
                       Positioned(
                         child: Image(

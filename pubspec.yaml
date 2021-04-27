@@ -22,7 +22,7 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/images/rectangle_31.png
+    - assets/images/avatar.png
     - assets/images/add.png
   #   - images/a_dot_ham.jpeg
 
