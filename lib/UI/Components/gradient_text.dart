@@ -4,12 +4,12 @@ class GradientText extends StatelessWidget {
   const GradientText({
     @required this.gradient,
     @required this.title,
-    @required this.textAlign,
+    this.textAlign,
     @required this.fontSize,
     @required this.fontFamily,
-    @required this.fontWeight,
-    @required this.textDecoration,
-    @required this.fontHeight,
+    this.fontWeight,
+    this.textDecoration,
+    this.fontHeight,
   });
 
   final LinearGradient gradient;
@@ -25,11 +25,7 @@ class GradientText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: ShaderMask(
-        shaderCallback: (Rect bounds) {
-          return gradient.createShader(
-            Offset.fromDirection(180) & bounds.size,
-          );
-        },
+        shaderCallback: (Rect bounds) => gradient.createShader(bounds),
         child: Text(
           title,
           textAlign: textAlign,
